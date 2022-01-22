@@ -1,0 +1,48 @@
+.searchInputs {
+    display: flex;
+    align-items: center;
+    padding: 0 32px;
+    width: 500px;
+    height: 75px;
+    border-radius: 5px;
+    background-color: white;
+
+    gap: 24px;
+
+}
+
+.searchInputs input {
+    border: 0;
+    outline: 0;
+    background: none;
+    font-size: 22px;
+    width: 100%;
+}
+
+.dataResult {
+    border-radius: 5px;
+    background: #f1f1f1;
+
+    width: 500px;
+    max-height: 300px;
+
+    overflow: hidden;
+    overflow-y: auto;
+
+}
+
+.dataResult::-webkit-scrollbar {
+    display: none;
+}
+
+.dataItem {
+    padding: 24px 32px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    cursor: pointer;
+}
+
+.dataItem:hover {
+    background-color: #e9e9e9;
+}
